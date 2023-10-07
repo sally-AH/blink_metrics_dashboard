@@ -15,7 +15,7 @@
                     <a href="">
                         <div class="menu-row">
                             <span class="icon">
-                                <ion-icon name="logo-apple"></ion-icon>
+                                <img src="assets/logo/ic_launcher.png" class="logo" alt="">
                             </span>
                             <span class="title">Name</span>
                         </div>
