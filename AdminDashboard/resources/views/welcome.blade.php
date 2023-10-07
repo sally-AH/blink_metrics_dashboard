@@ -9,6 +9,7 @@
 </head>
 <body>
     <div class="container">
+        {{-- NAV --}}
         <div class="navigation">
             <ul>
                 <li>
@@ -17,7 +18,7 @@
                             <span class="icon">
                                 <img src="assets/logo/ic_launcher.png" class="logo" alt="">
                             </span>
-                            <span class="title">Name</span>
+                            <span class="title">Blink Matricx</span>
                         </div>
                     </a>
                 </li>
@@ -63,6 +64,21 @@
                 </li>
 
             </ul>
+        </div>
+
+        {{-- Main --}}
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </div>
+                <div class="search">
+                    <label for="">
+                        <input type="text" placeholder="Search here">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </label>
+                </div>
+            </div>
         </div>
     </div>
 
