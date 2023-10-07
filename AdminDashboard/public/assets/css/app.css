@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #400307;
+    --secondary-color:#FBA919;
+    --white: #fff;
+    --gray: #f5f5f5;
+    --black1: #222;
+    --black2: #999;
+}
+
+body {
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.navigation {
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    background: var(--primary-color);
+    border-left: 10px solid var(--primary-color);
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.menu-row {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    position: relative;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    
+}
+
+.navigation ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navigation ul li {
+    position: relative;
+    width: 100%;
+    list-style: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+}
+
+.navigation ul li:hover {
+    background-color: var(--white);
+}
+
+.navigation ul li:nth-child(1) {
+    margin-bottom: 40px;
+    pointer-events: none;
+}
+
+.navigation ul li a {
+    position: relative;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: var(--gray);
+}
+
+.navigation ul li:hover a {
+    color: var(--primary-color);
+}
+
+.navigation ul li a .icon {
+
+    min-width: 60px;
+
+
+
+}
