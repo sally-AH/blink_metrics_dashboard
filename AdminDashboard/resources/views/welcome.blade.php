@@ -11,15 +11,56 @@
     <div class="container">
         <div class="navigation">
             <ul>
-                <li><a href="">
-                    <span class="icon">
-                        <ion-icon name="logo-apple"></ion-icon>
-                    </span>
-                    <span class="title">Name</span></a>
+                <li>
+                    <a href="">
+                        <div class="menu-row">
+                            <span class="icon">
+                                <ion-icon name="logo-apple"></ion-icon>
+                            </span>
+                            <span class="title">Name</span>
+                        </div>
+                    </a>
                 </li>
-                <li><a href=""><span class="icon">XXX</span><span class="title">Name</span></a></li>
-                <li><a href=""><span class="icon">XXX</span><span class="title">Name</span></a></li>
-                <li><a href=""><span class="icon">XXX</span><span class="title">Name</span></a></li>
+                <li>
+                    <a href="">
+                        <div class="menu-row">
+                            <span class="icon">
+                                <ion-icon name="logo-apple"></ion-icon>
+                            </span>
+                            <span class="title">Name</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="menu-row">
+                            <span class="icon">
+                                <ion-icon name="logo-apple"></ion-icon>
+                            </span>
+                            <span class="title">Name</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="menu-row">
+                            <span class="icon">
+                                <ion-icon name="logo-apple"></ion-icon>
+                            </span>
+                            <span class="title">Name</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="menu-row">
+                            <span class="icon">
+                                <ion-icon name="logo-apple"></ion-icon>
+                            </span>
+                            <span class="title">Name</span>
+                        </div>
+                    </a>
+                </li>
 
             </ul>
         </div>
