@@ -82,8 +82,57 @@
 
             {{-- Cards --}}
             <div class="cardBox">
+                <div class="card draggable" draggable="true">
+                    <div>
+                        <div class="numbers">
+                            123
+                        </div>
+                        <div class="cardNumber">
+                            Daily Views
+                        </div>
+                    </div>
+                    <div class="iconBox">
+                        <ion-icon name="logo-apple"></ion-icon>
+                    </div>
+                </div>
                 <div class="card">
-                    
+                    <div>
+                        <div class="numbers">
+                            123
+                        </div>
+                        <div class="cardNumber">
+                            Daily Views
+                        </div>
+                    </div>
+                    <div class="iconBox">
+                        <ion-icon name="logo-apple"></ion-icon>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <div class="numbers">
+                            123
+                        </div>
+                        <div class="cardNumber">
+                            Daily Views
+                        </div>
+                    </div>
+                    <div class="iconBox">
+                        <ion-icon name="logo-apple"></ion-icon>
+                    </div>
+                </div>
+                <div class="card">
+                    <div>
+                        <div class="numbers">
+                            123
+                        </div>
+                        <div class="cardNumber">
+                            Daily Views
+                        </div>
+                    </div>
+                    <div class="iconBox">
+                        <ion-icon name="logo-apple"></ion-icon>
+                    </div>
                 </div>
             </div>
         </div>
