@@ -79,6 +79,13 @@
                     </label>
                 </div>
             </div>
+
+            {{-- Cards --}}
+            <div class="cardBox">
+                <div class="card">
+                    
+                </div>
+            </div>
         </div>
     </div>
 
