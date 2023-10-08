@@ -189,7 +189,7 @@ body {
 
 /* Cards */
 .cardBox {
-    position: relative;
+    /* position: relative; */
     width: 100%;
     padding: 20px;
     display: grid;
@@ -198,7 +198,7 @@ body {
 }
 
 .cardBox .card {
-    position: relative;
+    /* position: relative; */
     background: var(--white);
     padding: 30px;
     border-radius: 20px;
@@ -209,7 +209,7 @@ body {
 }
 
 .cardBox .card .numbers {
-    position: relative;
+    /* position: relative; */
     font-weight: 500;
     font-size: 2.5rem;
     color: var(--primary-color);
@@ -234,4 +234,10 @@ body {
 .cardBox .card:hover .cardNumber,
 .cardBox .card:hover .iconBox {
     color: var(--white);
+}
+
+/* drag */
+
+.draggable.dragging {
+    opacity: .5;
 }

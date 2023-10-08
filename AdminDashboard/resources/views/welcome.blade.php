@@ -85,7 +85,7 @@
                 <div class="card draggable" draggable="true">
                     <div>
                         <div class="numbers">
-                            123
+                            1
                         </div>
                         <div class="cardNumber">
                             Daily Views
@@ -95,10 +95,10 @@
                         <ion-icon name="logo-apple"></ion-icon>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card draggable" draggable="true">
                     <div>
                         <div class="numbers">
-                            123
+                            2
                         </div>
                         <div class="cardNumber">
                             Daily Views
@@ -108,10 +108,10 @@
                         <ion-icon name="logo-apple"></ion-icon>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card draggable" draggable="true">
                     <div>
                         <div class="numbers">
-                            123
+                            3
                         </div>
                         <div class="cardNumber">
                             Daily Views
@@ -121,10 +121,10 @@
                         <ion-icon name="logo-apple"></ion-icon>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card draggable" draggable="true">
                     <div>
                         <div class="numbers">
-                            123
+                            4
                         </div>
                         <div class="cardNumber">
                             Daily Views
@@ -134,6 +134,7 @@
                         <ion-icon name="logo-apple"></ion-icon>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
