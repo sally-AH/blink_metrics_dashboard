@@ -41,39 +41,23 @@ ELFsight website is used to get widgets.
 <a name="Demo" ></a>
 <img src="./readme/title4.png"/>
 
-> Using the wireframes and mockups as a guide, we implemented the Predict Pro app with the following features:
+> We implemented the Blink Matrics Dashboard with the following features:
 
-### User Screens (Mobile)
-| Login Screen  | Register Screen | Landing Screen | Loading Screen |
+
+
+
+| Dashboard | Menu | Resisable Cards | Dragging Cards |
 | ---| ---| ---| ---|
-| ![Landing](./readme/demo/Rloginpage.jpg) | ![fsdaf](./readme/demo/RregisterScreen.jpg) | ![fsdaf](./readme/demo/Rlandingpage.jpg) | ![fsdaf](./readme/demo/Mdash.jpg) |
+| ![Landing](./readme/demo/1.gif) | ![fsdaf](./readme/demo/2.gif) | ![fsdaf](./readme/demo/3.gif) | ![fsdaf](./readme/demo/4.gif) |
 
 
-
-| Dashboard Screen | Stock Screen | Chat Screen | Login/Sign up Screen |
+| Charts | News Widget | COVID 19 Widget | Stock Market Widget |
 | ---| ---| ---| ---|
-| ![Landing](./readme/demo/GIFs/ezgif.com-gif-maker.gif) | ![fsdaf](./readme/demo/GIFs/ezgif.com-gif-maker(1).gif) | ![fsdaf](./readme/demo/GIFs/ezgif.com-gif-maker(2).gif) | ![fsdaf](./readme/demo/GIFs/ezgif.com-video-to-gif.gif) |
+| ![Landing](./readme/demo/5.gif) | ![fsdaf](./readme/demo/6.gif) | ![Landing](./readme/demo/7.gif) | ![fsdaf](./readme/demo/8.gif) |
 
-### User Screens (Admin)
-| Landing Screen | Users Screen |
-| ---| ---|
-| ![Landing](./readme/demo/newDash.PNG) | ![fsdaf](./readme/demo/users.PNG) |
-
-| Light Mode Landing Screen | Light Mode Users Screen |
-| ---| ---|
-| ![Landing](./readme/demo/LNdash.PNG) | ![fsdaf](./readme/demo/Luser.PNG) |
-
-| Pie Chart Screen | Bar Chart Screen | Line Chart Screen |
+| Resizing | Dragging | What'sApp Widget | 
 | ---| ---| ---|
-| ![Landing](./readme/demo/pie.PNG) | ![fsdaf](./readme/demo/Bar.PNG) | ![fsdaf](./readme/demo/line.PNG) |
-
-| Light/Dark Mode | Team screen |
-| ---| ---|
-| ![Landing](./readme/demo/GIFs/GD1.gif) | ![fsdaf](./readme/demo/GIFs/GG2.gif) |
-
-| Bar Chart Screen | Pie Chart Screen |
-| ---| ---|
-| ![Landing](./readme/demo/GIFs/GD3.gif) | ![fsdaf](./readme/demo/GIFs/GD4.gif) |
+| ![Landing](./readme/demo/9.gif) | ![fsdaf](./readme/demo/10.gif) | ![Landing](./readme/demo/11.gif) |
 
 
 <br><br> 
