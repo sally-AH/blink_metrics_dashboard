@@ -15,7 +15,7 @@
 
 body {
     min-height: 100vh;
-    overflow: hidden;
+
 }
 
 .container {
@@ -243,10 +243,31 @@ body {
 }
 /* Resize */
 .resizable {
-    width: 200px;
-    height: 150px;
     background-color: lightblue;
     resize: both; /* This allows resizing in both horizontal and vertical directions */
     overflow: auto; /* Add scrollbars when content overflows */
     padding: 10px;
 }
+
+/* Carts */
+.chartBox {
+    position: relative;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 30px;
+}
+
+.chartBox .chart {
+    position: relative;
+    padding: 20px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, .08);
+    border-radius: 20px;
+    border: 1px solid var(--primary-color);
+
+}
+
+/* Map */
+#map { height: 180px; }

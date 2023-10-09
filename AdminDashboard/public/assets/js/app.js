@@ -9,7 +9,7 @@ toggle.onclick = function() {
 
 
 const draggables = document.querySelectorAll('.draggable');
-const containers = document.querySelectorAll('.cardBox');
+const containers = document.querySelectorAll('.dragContainer');
 
 draggables.forEach(draggable => {
     draggable.addEventListener('dragstart', () => {
@@ -24,7 +24,7 @@ draggables.forEach(draggable => {
 containers.forEach(container => {
     container.addEventListener('dragover', e => {
         e.preventDefault();
-        const afterElement = getDragAfterElement(container, e.clientX); // Use e.clientX for horizontal dragging
+        const afterElement = getDragAfterElement(container, e.clientX); 
         const draggable = document.querySelector('.dragging');
         if (afterElement == null) {
             container.appendChild(draggable);
@@ -34,11 +34,11 @@ containers.forEach(container => {
     });
 });
 
-function getDragAfterElement(container, x) { // Change 'y' to 'x' for horizontal dragging
+function getDragAfterElement(container, x) { 
     const draggableElements = [...container.querySelectorAll('.draggable:not(.dragging)')];
     return draggableElements.reduce((closest, child) => {
         const box = child.getBoundingClientRect();
-        const offset = x - box.left - box.width / 2; // Adjust offset calculation for horizontal dragging
+        const offset = x - box.left - box.width / 2; 
         if (offset < 0 && offset > closest.offset) {
             return { offset: offset, element: child };
         } else {
@@ -54,27 +54,27 @@ function getDragAfterElement(container, x) { // Change 'y' to 'x' for horizontal
 
 
 
-// JavaScript to make the element resizable
-const resizableElement = document.getElementById('resizableElement');
-let isResizing = false;
+// // JavaScript to make the element resizable
+// const resizableElement = document.getElementById('resizableElement');
+// let isResizing = false;
 
-resizableElement.addEventListener('mousedown', (e) => {
-    isResizing = true;
-    let prevX = e.clientX;
+// resizableElement.addEventListener('mousedown', e => {
+//     isResizing = true;
+//     let prevX = e.clientX;
 
-    document.addEventListener('mousemove', resize);
-    document.addEventListener('mouseup', stopResize);
+//     document.addEventListener('mousemove', resize);
+//     document.addEventListener('mouseup', stopResize);
 
-    function resize(e) {
-        if (isResizing) {
-            const width = resizableElement.offsetWidth + (e.clientX - prevX);
-            resizableElement.style.width = width + 'px';
-            prevX = e.clientX;
-        }
-    }
+//     function resize(e) {
+//         if (isResizing) {
+//             const width = resizableElement.offsetWidth + (e.clientX - prevX);
+//             resizableElement.style.width = width + 'px';
+//             prevX = e.clientX;
+//         }
+//     }
 
-    function stopResize() {
-        isResizing = false;
-        document.removeEventListener('mousemove', resize);
-    }
-});
+//     function stopResize() {
+//         isResizing = false;
+//         document.removeEventListener('mousemove', resize);
+//     }
+// });
