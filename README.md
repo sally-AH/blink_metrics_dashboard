@@ -25,18 +25,15 @@
 
 <a name="Frontend" ></a>
 #### Frontend Development:
-The Predict Pro app is built using Flutter app development framework. Flutter enables the development of cross-platform mobile applications with a single codebase, allowing it to run seamlessly on various devices, including mobile, desktop, and web.
+The Blink Matrics Dashboard is built using Laravel. Laravel is a robust PHP framework known for its elegant syntax and powerful features, making it ideal for building efficient applications.
 
 <a name="Backend" ></a>
 #### Backend Development:
-For the backend, Laravel is used. Laravel is a robust PHP framework known for its elegant syntax and powerful features, making it ideal for building efficient and secure server-side applications.
-
-#### Database Management:
-The application relies on MySQL for database management. MySQL is a widely used open-source relational database management system that ensures data is stored and retrieved efficiently.
+For the backend, Laravel is used. 
 
 
 #### Widgets:
-Firebase Cloud Messaging (FCM) is used for sending push notifications to users. FCM is a cross-platform messaging solution that ensures reliable message delivery across different devices.
+ELFsight website is used to get widgets.
 
 <br><br>
 
