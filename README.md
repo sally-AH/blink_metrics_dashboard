@@ -34,10 +34,8 @@ For the backend, Laravel is used. Laravel is a robust PHP framework known for it
 #### Database Management:
 The application relies on MySQL for database management. MySQL is a widely used open-source relational database management system that ensures data is stored and retrieved efficiently.
 
-#### Real-time Chat:
-To facilitate real-time communication among users, Firebase Realtime Database is integrated. Firebase is a Google-backed platform that offers real-time database capabilities, making it perfect for features like live chatting within the app.
 
-#### Notifications:
+#### Widgets:
 Firebase Cloud Messaging (FCM) is used for sending push notifications to users. FCM is a cross-platform messaging solution that ensures reliable message delivery across different devices.
 
 <br><br>
