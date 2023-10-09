@@ -271,7 +271,8 @@
                 </div>
                 <!-- TradingView Widget END -->
             </div>
-
+            <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+            <div class="elfsight-app-553d27cc-31e1-448f-beb0-f905b98bbd2b"></div>
         </div>
     </div>
 
