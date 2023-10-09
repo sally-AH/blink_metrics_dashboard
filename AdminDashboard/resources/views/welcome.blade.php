@@ -152,7 +152,7 @@
                 <div class="card draggable resizable" draggable="true">
                     <div>
                         <div class="numbers">
-                            $7,842
+                            $784
                         </div>
                         <div class="cardNumber">
                             Earnings
