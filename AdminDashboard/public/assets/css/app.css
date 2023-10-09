@@ -241,3 +241,12 @@ body {
 .draggable.dragging {
     opacity: .5;
 }
+/* Resize */
+.resizable {
+    width: 200px;
+    height: 150px;
+    background-color: lightblue;
+    resize: both; /* This allows resizing in both horizontal and vertical directions */
+    overflow: auto; /* Add scrollbars when content overflows */
+    padding: 10px;
+}

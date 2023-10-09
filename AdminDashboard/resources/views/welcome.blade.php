@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/app.css">
     <title>Blink Matrics Dashboard</title>
+
+</head>
 </head>
 <body>
     <div class="container">
@@ -79,10 +81,9 @@
                     </label>
                 </div>
             </div>
-
             {{-- Cards --}}
             <div class="cardBox">
-                <div class="card draggable" draggable="true">
+                <div class="card draggable resizable" draggable="true" >
                     <div>
                         <div class="numbers">
                             1
@@ -95,7 +96,7 @@
                         <ion-icon name="logo-apple"></ion-icon>
                     </div>
                 </div>
-                <div class="card draggable" draggable="true">
+                <div class="card draggable resizable" draggable="true">
                     <div>
                         <div class="numbers">
                             2
@@ -108,7 +109,7 @@
                         <ion-icon name="logo-apple"></ion-icon>
                     </div>
                 </div>
-                <div class="card draggable" draggable="true">
+                <div class="card draggable resizable" draggable="true">
                     <div>
                         <div class="numbers">
                             3
@@ -121,7 +122,7 @@
                         <ion-icon name="logo-apple"></ion-icon>
                     </div>
                 </div>
-                <div class="card draggable" draggable="true">
+                <div class="card draggable resizable" draggable="true">
                     <div>
                         <div class="numbers">
                             4
@@ -136,10 +137,11 @@
                 </div>
 
             </div>
+            
         </div>
     </div>
 
-
+    
     {{-- Scripts --}}
     <script src="assets/js/app.js"></script>
     {{-- ICONS --}}
