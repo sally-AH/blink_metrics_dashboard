@@ -34,9 +34,9 @@
                     <a href="">
                         <div class="menu-row">
                             <span class="icon">
-                                <ion-icon name="logo-apple"></ion-icon>
+                                <ion-icon name="home-outline"></ion-icon>
                             </span>
-                            <span class="title">Name</span>
+                            <span class="title">Dashboard</span>
                         </div>
                     </a>
                 </li>
@@ -44,9 +44,9 @@
                     <a href="">
                         <div class="menu-row">
                             <span class="icon">
-                                <ion-icon name="logo-apple"></ion-icon>
+                                <ion-icon name="people-outline"></ion-icon>
                             </span>
-                            <span class="title">Name</span>
+                            <span class="title">Customers</span>
                         </div>
                     </a>
                 </li>
@@ -54,9 +54,9 @@
                     <a href="">
                         <div class="menu-row">
                             <span class="icon">
-                                <ion-icon name="logo-apple"></ion-icon>
+                                <ion-icon name="chatbubble-outline"></ion-icon>
                             </span>
-                            <span class="title">Name</span>
+                            <span class="title">Messages</span>
                         </div>
                     </a>
                 </li>
@@ -64,12 +64,33 @@
                     <a href="">
                         <div class="menu-row">
                             <span class="icon">
-                                <ion-icon name="logo-apple"></ion-icon>
+                                <ion-icon name="help-outline"></ion-icon>
                             </span>
-                            <span class="title">Name</span>
+                            <span class="title">Help</span>
                         </div>
                     </a>
                 </li>
+                <li>
+                    <a href="">
+                        <div class="menu-row">
+                            <span class="icon">
+                                <ion-icon name="settings-outline"></ion-icon>
+                            </span>
+                            <span class="title">Settings</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <div class="menu-row">
+                            <span class="icon">
+                                <ion-icon name="log-out-outline"></ion-icon>
+                            </span>
+                            <span class="title">Sign Out</span>
+                        </div>
+                    </a>
+                </li>
+
 
             </ul>
         </div>
