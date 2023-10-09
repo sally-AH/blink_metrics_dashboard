@@ -1,19 +1,13 @@
-<img src="./readme/title1.svg"/> 
+<img src="./readme/title1.png"/> 
 <br><br> 
 
-<img src="./readme/title7.svg"/> 
+<img src="./readme/title7.png"/> 
 
 
-- [Project Philosophy](#project-description)
-- [User Types](#user-types)
-- [Features of the App](#features-of-the-app)
 - [Tech Stack](#tech-stack)
   - [Frontend](#Frontend)
   - [Backend](#Backend)
-- [Prototyping](#prototyping)
 - [Demo](#Demo)
-- [OpenAi](#OpenAi)
-- [Performance](#Performance)
 - [How to Run](#how-to-run)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
@@ -21,79 +15,31 @@
 
 <br><br>  
 
-<!-- Project Description -->
-<a name="project-description"></a>
-<img src="./readme/title2.svg"/> 
-> The Predicate Pro is a web application specifically designed for supermarkets, in order to track and evaluate customer behavior. Its primary objective is to generate accurate forecasts to get the optimal product placement on shelves, recommendations for increased stock quantities, and identification of items that require inventory reduction. Furthermore, this application gives supermarkets access to detailed monthly reports and visual graphs, allowing them to closely monitor purchase trends and assess profitability. and that will be done using machine learning and artificial intelligence.
-<br>
 
-
-
-### User Types 
-1. Admin
-2. Store Manager
-
-
-### Features of the App
-
-#### Admin Stories
-- As an Admin, I want to categorize Customers so that I can filter behavior data.
-- As an Admin, I want to get Seasonal Predictions so that I can plan the inventory.
-- As an Admin, I want Inventory Reduction Suggestions so that I can receive recommendations for minimizing waste and improving profit.
-
-#### Store Manager Stories
-- As a Store Manager I want to Create a Profile so that I can save my work and data.
-- As a Store Manager I want to Edit my Profile so that I can change my info.
-
-
-<br><br>
-
-<!-- Prototyping -->
-<a name="prototyping"></a>
-<img src="./readme/title3.svg"/>
-
-> We designed Predict Pro using wireframes and mockups, iterating on the design until we reached the ideal layout for easy navigation and a seamless user experience.
-
-### Wireframes
-| Login screen  | Register screen |  Main screen |
-| ---| ---| ---|
-| ![Landing](./readme/demo/Wphonesignin.png) | ![fsdaf](./readme/demo/Wphonesignup.png) | ![fsdaf](./readme/demo/Wphonedashboard.png) |
-
-### Mockups
-| Login screen  | Register screen |  Main screen |
-| ---| ---| ---|
-| ![Landing](./readme/demo/Login.png) | ![fsdaf](./readme/demo/Signup.png) | ![fsdaf](./readme/demo/phonedashboard.png) |
-
-<br><br>
 
 <!-- Tech stack -->
 <a name="tech-stack" ></a>
-<img src="./readme/title5.svg"/>
+<img src="./readme/title5.png"/>
 
 ###  Predict Pro is built using the following technologies:
 
 <a name="Frontend" ></a>
 #### Frontend Development:
-The Predict Pro app is built using Flutter app development framework. Flutter enables the development of cross-platform mobile applications with a single codebase, allowing it to run seamlessly on various devices, including mobile, desktop, and web.
+The Blink Matrics Dashboard is built using Laravel. Laravel is a robust PHP framework known for its elegant syntax and powerful features, making it ideal for building efficient applications.
 
 <a name="Backend" ></a>
 #### Backend Development:
-For the backend, Laravel is used. Laravel is a robust PHP framework known for its elegant syntax and powerful features, making it ideal for building efficient and secure server-side applications.
+For the backend, Laravel is used. 
 
-#### Database Management:
-The application relies on MySQL for database management. MySQL is a widely used open-source relational database management system that ensures data is stored and retrieved efficiently.
 
-#### Real-time Chat:
-To facilitate real-time communication among users, Firebase Realtime Database is integrated. Firebase is a Google-backed platform that offers real-time database capabilities, making it perfect for features like live chatting within the app.
-
-#### Notifications:
-Firebase Cloud Messaging (FCM) is used for sending push notifications to users. FCM is a cross-platform messaging solution that ensures reliable message delivery across different devices.
+#### Widgets:
+ELFsight website is used to get widgets.
 
 <br><br>
 
 <!-- Demo -->
 <a name="Demo" ></a>
-<img src="./readme/title4.svg"/>
+<img src="./readme/title4.png"/>
 
 > Using the wireframes and mockups as a guide, we implemented the Predict Pro app with the following features:
 
@@ -132,144 +78,36 @@ Firebase Cloud Messaging (FCM) is used for sending push notifications to users. 
 
 <br><br> 
 
-<a name="OpenAi" ></a>
-<img src="./readme/title8.svg"/>
-<br>
-
-Before prediction:
-```sh
-{
-  invoice_id: 1,
-  branch_id: 1,
-  date: 2032-03-01 06:25:44
-  total: 103
-}
-```
-<br>
-After prediction: 
-
-```sh 
-  {
-  "product": {
-    "times of buying": {
-        "Kimberly Snacks" => 3,
-        "Clorox Snacks" => 25,
-        "Kellogg's Snacks" => 74,
-        "Hormel Household" => 8,
-     }
-
-  "total revenues": {
-        "Kimberly Snacks" => 197.46,
-        "Clorox Snacks" => 168.18,
-        "Kellogg's Snacks" => 140.37,
-        "Hormel Household" =>134.07,
-     }
-  },
-"weekly revenues in each month": {
-    "May 2023": {
-      "Week 1": 580.6,
-      "Week 2": 596.6,
-      "Week 3": 509.6,
-      "Week 4":  482.7,
-      "Week 5":  355.6
-    },
-  },
-
-  "monthly revenues": {
-    "May 2023": 2614.2,
-    "June 2023": 2614.2,
-    "July 2023": 2614.2,
-    "August 2023": 2614.2,
-    "September 2023": 1357.5
-  },
-  "total revenues from all products": 3706.1,
-  "top 5 products": {
-   {
-      "product" => "Kimberly Snacks",
-      "revenue" => 191.46
-    },
-   {
-      "product" => "Clorox Snacks",
-      "revenue" => 168.18
-    },
-
-  }
-}
-
-```
-
-<br><br> 
-
-
-
-
-<a name="Performance" ></a>
-<img src="./readme/title9.svg"/> 
-> The following tests were conducted in Postman to assess the functionality of my application's primary APIs
-<br>
-
-URL: http://34.245.108.208/api/admin/getusers
-
-```sh 
-PASS  Response status code is 200
-PASS  Response contains the users property
-PASS  Each user in the users array has the required properties
-
-```
-<br>
-
-URL: http://34.245.108.208/api/admin/prompt
-
-```sh 
-PASS  The product array length must be greater than zero
-PASS  Response time is within acceptable range
-PASS  Response status code is 200
-PASS  Validate the structure of the 'product' object
-```
-<br>
-
-
-
-
-<br><br> 
 
 
 <!-- How to run -->
 <a name="how-to-run" ></a>
-<img src="./readme/title6.svg"/> 
+<img src="./readme/title6.png"/> 
 
 > To set up Coffee Express locally, follow these steps:
-### Prerequisites 
-##### Admin dashboard
 
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+### Admin dashboard
 
-##### Mobile App
-*  Flutter SDK: Install the Flutter SDK to build and run the mobile application.
-
-### Installation
+#### Installation
 
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git](https://github.com/sally-AH/predict_pro_app.git
+   git clone https://github.com/sally-AH/blink_metrics_dashboard.git
    ```
 2. Install Laravel dependencies by navigating to the Laravel project directory:
    ```sh
-   cd laravel-backend
+   cd AdminDashboard
    composer install
    ```
-3. Run Laravel migrations to set up the database:
-   ```js
-   php artisan migrate
-   ```
-4. Navigate to the Flutter app directory:
+3. Copy the example env file and make the required configuration changes in the .env file:
    ```sh
-   flutter pub get
-    flutter run
+   cp .env.example .env
+   ```
+4. Start the local development server:
+   ```sh
+   php artisan serve
    ```
 
-Now, you should be able to run Coffee Express locally and explore its features.
+
+Now, you should be able to run Blink Matrics locally and explore its features.
