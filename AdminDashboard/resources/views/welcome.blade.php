@@ -26,7 +26,7 @@
                             <span class="icon">
                                 <img src="assets/logo/ic_launcher.png" class="logo" alt="">
                             </span>
-                            <span class="title">Blink Matricx</span>
+                            <span class="title">Blink Metrics</span>
                         </div>
                     </a>
                 </li>
