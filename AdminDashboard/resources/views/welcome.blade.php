@@ -113,53 +113,53 @@
                 <div class="card draggable resizable" draggable="true" >
                     <div>
                         <div class="numbers">
-                            1
+                            1,504
                         </div>
                         <div class="cardNumber">
                             Daily Views
                         </div>
                     </div>
                     <div class="iconBox">
-                        <ion-icon name="logo-apple"></ion-icon>
+                        <ion-icon name="eye-outline"></ion-icon>
                     </div>
                 </div>
                 <div class="card draggable resizable" draggable="true">
                     <div>
                         <div class="numbers">
-                            2
+                            80
                         </div>
                         <div class="cardNumber">
-                            Daily Views
+                            Sales
                         </div>
                     </div>
                     <div class="iconBox">
-                        <ion-icon name="logo-apple"></ion-icon>
+                        <ion-icon name="cart-outline"></ion-icon>
                     </div>
                 </div>
                 <div class="card draggable resizable" draggable="true">
                     <div>
                         <div class="numbers">
-                            3
+                            284
                         </div>
                         <div class="cardNumber">
-                            Daily Views
+                            Comments
                         </div>
                     </div>
                     <div class="iconBox">
-                        <ion-icon name="logo-apple"></ion-icon>
+                        <ion-icon name="chatbubble-outline"></ion-icon>
                     </div>
                 </div>
                 <div class="card draggable resizable" draggable="true">
                     <div>
                         <div class="numbers">
-                            4
+                            $7,842
                         </div>
                         <div class="cardNumber">
-                            Daily Views
+                            Earnings
                         </div>
                     </div>
                     <div class="iconBox">
-                        <ion-icon name="logo-apple"></ion-icon>
+                        <ion-icon name="cash-outline"></ion-icon>
                     </div>
                 </div>
 
@@ -178,21 +178,98 @@
 
             <div class="chartBox dragContainer">
                 <div class="chart draggable resizable" draggable="true">
-                    <div id="ww_c2c1741309648" v='1.3' loc='id' a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":[],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>More forecasts: 
-                        <a href="https://weatherwidget.org/fr/" id="ww_c2c1741309648_u" target="_blank">Widget meteo html</a>
-                    </div>
-                    <script async src="https://app2.weatherwidget.org/js/?id=ww_c2c1741309648"></script>
+                    <!-- weather widget start -->
+                    <div id="m-booked-weather-bl250-90349"> 
+                        <div class="booked-wzs-250-175 weather-customize" style="background-color:#137AE9;width:160px;" id="width1"> 
+                            <div class="booked-wzs-250-175_in"> 
+                                <div class="booked-wzs-250-175-data"> 
+                                    <div class="booked-wzs-250-175-left-img wrz-03"> </div> 
+                                    <div class="booked-wzs-250-175-right"> 
+                                        <div class="booked-wzs-day-deck">
+                                            <div class="booked-wzs-day-val"> 
+                                                <div class="booked-wzs-day-number">
+                                                    <span class="plus">+</span>25
+                                                </div> 
+                                                <div class="booked-wzs-day-dergee"> 
+                                                    <div class="booked-wzs-day-dergee-val">&deg;</div> 
+                                                    <div class="booked-wzs-day-dergee-name">C</div> 
+                                                </div> 
+                                            </div> 
+                                            <div class="booked-wzs-day"> 
+                                                <div class="booked-wzs-day-d">H: 
+                                                    <span class="plus">+</span>25&deg;
+                                                </div> 
+                                                    <div class="booked-wzs-day-n">L: 
+                                                        <span class="plus">+</span>24&deg;
+                                                    </div> 
+                                                </div> 
+                                            </div> 
+                                            <div class="booked-wzs-250-175-info"> 
+                                                <div class="booked-wzs-250-175-city">Beirut </div> 
+                                                <div class="booked-wzs-250-175-date">Monday, 09 October</div> 
+                                                <div class="booked-wzs-left"> 
+                                                    <span class="booked-wzs-bottom-l">See 7-Day Forecast</span> 
+                                                </div> 
+                                            </div> 
+                                        </div> 
+                                    </div> 
+                                    <table cellpadding="0" cellspacing="0" class="booked-wzs-table-250"> <tr> <td>Sun</td> <td>Tue</td> <td>Wed</td> <td>Thu</td> <td>Fri</td> <td>Sat</td> </tr> <tr> <td class="week-day-ico"><div class="wrz-sml wrzs-03"></div></td> <td class="week-day-ico"><div class="wrz-sml wrzs-18"></div></td> <td class="week-day-ico"><div class="wrz-sml wrzs-01"></div></td> <td class="week-day-ico"><div class="wrz-sml wrzs-01"></div></td> <td class="week-day-ico"><div class="wrz-sml wrzs-03"></div></td> <td class="week-day-ico"><div class="wrz-sml wrzs-18"></div></td> </tr> <tr> <td class="week-day-val"><span class="plus">+</span>25&deg;</td> <td class="week-day-val"><span class="plus">+</span>25&deg;</td> <td class="week-day-val"><span class="plus">+</span>24&deg;</td> <td class="week-day-val"><span class="plus">+</span>25&deg;</td> <td class="week-day-val"><span class="plus">+</span>25&deg;</td> <td class="week-day-val"><span class="plus">+</span>25&deg;</td> </tr> <tr> <td class="week-day-val"><span class="plus">+</span>24&deg;</td> <td class="week-day-val"><span class="plus">+</span>23&deg;</td> <td class="week-day-val"><span class="plus">+</span>23&deg;</td> <td class="week-day-val"><span class="plus">+</span>23&deg;</td> <td class="week-day-val"><span class="plus">+</span>24&deg;</td> <td class="week-day-val"><span class="plus">+</span>24&deg;</td> </tr> </table> </div> </div> </div><script type="text/javascript"> var css_file=document.createElement("link"); var widgetUrl = location.href; css_file.setAttribute("rel","stylesheet"); css_file.setAttribute("type","text/css"); css_file.setAttribute("href",'https://s.bookcdn.com/css/w/booked-wzs-widget-275.css?v=0.0.1'); document.getElementsByTagName("head")[0].appendChild(css_file); function setWidgetData_90349(data) { if(typeof(data) != 'undefined' && data.results.length > 0) { for(var i = 0; i < data.results.length; ++i) { var objMainBlock = document.getElementById('m-booked-weather-bl250-90349'); if(objMainBlock !== null) { var copyBlock = document.getElementById('m-bookew-weather-copy-'+data.results[i].widget_type); objMainBlock.innerHTML = data.results[i].html_code; if(copyBlock !== null) objMainBlock.appendChild(copyBlock); } } } else { alert('data=undefined||data.results is empty'); } } var widgetSrc = "https://widgets.booked.net/weather/info?action=get_weather_info;ver=7;cityID=977;type=3;scode=65581;ltid=3457;domid=w209;anc_id=90103;countday=undefined;cmetric=1;wlangID=1;color=137AE9;wwidth=160;header_color=ffffff;text_color=333333;link_color=08488D;border_form=1;footer_color=ffffff;footer_text_color=333333;transparent=0;v=0.0.1";widgetSrc += ';ref=' + widgetUrl;widgetSrc += ';rand_id=90349';var weatherBookedScript = document.createElement("script"); weatherBookedScript.setAttribute("type", "text/javascript"); weatherBookedScript.src = widgetSrc; document.body.appendChild(weatherBookedScript) </script><!-- weather widget end -->
                 </div>
                 <div class="chart draggable resizable" draggable="true"> 
                     {{-- height="352" --}}
-                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/7qVcmaCAKgmZoAhjPMsXvC?utm_source=generator&theme=0" width="100%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    
                     <iframe style="border-radius:12px" src="https://open.spotify.com/embed/show/6YqgG1UezfW9khCvLh8rvw?utm_source=generator&theme=0" width="100%"  frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
                     </iframe>
+
+                
+                    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+                    <div class="elfsight-app-979d9386-fb96-4139-8d14-6ff111bea77e"></div>
                 </div>
             </div>
 
             <div class="chartBox dragContainer">
-                <div id="map" class="draggable resizable" draggable="true"></div>
+                
+                <div class ="chart draggable resizable" draggable="true">
+                    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+                    <div class="elfsight-app-cbc43a71-5c19-4f75-a32d-94bfe9636a81"></div>
+                </div>
+
+                <div class ="chart draggable resizable" draggable="true">
+                    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+                    <div class="elfsight-app-29f9fa6a-c0c7-4376-a0e5-9545755d558a"></div>
+                </div>
+
+
+            </div>
+            
+            <div class="chartBox">
+
+            
+                <div id="map" class="chart draggable resizable" draggable="true"></div>
+                    
+                    <!-- TradingView Widget BEGIN -->
+                <div class="tradingview-widget-container chart draggable resizable" draggable="true">
+                    <div id="tradingview_fffe5"></div>
+                    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+                    <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+                    <script type="text/javascript">
+                        new TradingView.widget(
+                            {
+                                "autosize": true,
+                                "symbol": "NASDAQ:AAPL",
+                                "interval": "D",
+                                "timezone": "Etc/UTC",
+                                "theme": "light",
+                                "style": "0",
+                                "locale": "en",
+                                "enable_publishing": false,
+                                "allow_symbol_change": true,
+                                "container_id": "tradingview_fffe5"
+                            }
+                        );
+                    </script>
+                </div>
+                <!-- TradingView Widget END -->
             </div>
 
         </div>
